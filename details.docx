@@ -1,0 +1,135 @@
+"""
+# THIS QUIZ REQUIRES AN INTERNET CONNECTION TO MAKE THE GET REQUESTS TO IMAGE URLs.
+# IT NEEDS the external libraries requests, io, and pillow. In some extreme cases, bs4(beautiful soup 4 might be required as well). To download the libraries, do  pip3 install *library_name* The rest of the libraries including json, os, and tkinter are built in.
+"""
+ 
+ANALYSIS and DESIGN:
+I am making a multiple choice quiz using the python module named tkinter, that contains 10 questions. The questions are
+very carefully selected. They are related to a subfield of Science, Astronomy. The questions targeted at year 10 level, and contain a lot of the stuff covered in Suzanne Cory too.
+I chose the options very carefully as well, so as to make it harder for the player to know the correct answer without using a lot of brain power. The programming language being used here is 100% Python, and the module being used to make the GUI is tkinter. Due to Python's flexibility power, we can import modules and libraries. The main library being used here is not external, however, to run the quiz without errors you need a few external libraries which include: requests, io, and pillow. In some cases, bs4(beautiful soup 4) might be required as well. If you already have Python in your system, and the path to pip was set during the installation, then you can open up your command line or terminal, and simply type pip3 install *library_name*, to install the library. Repeat this for all the libraries required. The main library being used is called
+Tkinter, which is built into python and comes pre-installed with python.It is a Python GUI framework, which can aid you in building GUIs. The MCQ quiz contains 10 questions, all
+of which are aimed at year 10 level. Each question has 4 options, of which only one is correct. The other 3 options are distractors, and are carefully picked to confuse the player.
+The quiz contains 10 questions about Astronomy, which is a sub-field or topic of Science, which is taught in Suzanne Cory at year 10 level. The majority of the questions are aimed at year 10 level.
+ 
+References:
+1) Tutorialspoint.com. 2021. Python - Tkinter Radiobutton - Tutorialspoint. [online] Available at: <https://www.tutorialspoint.com/python/tk_radiobutton.htm> [Accessed 2 May 2021].
+ 
+2) GitHub. 2021. python/cpython. [online] Available at: <https://github.com/python/cpython/tree/master/Lib/tkinter/> [Accessed 2 May 2021].
+ 
+3)Codegrepper.com. 2021. how to create multiple windows in tkinter with button Code Example. [online] Available at: <https://www.codegrepper.com/code-examples/python/how+to+create+multiple+windows+in+tkinter+with+button> [Accessed 2 May 2021].
+ 
+4)Python-course.eu. 2021. GUI Programming with Python: Radiobuttons in Tkinter. [online] Available at: <https://www.python-course.eu/tkinter_radiobuttons.php> [Accessed 2 May 2021].
+ 
+5)GeeksforGeeks. 2021. Python - MCQ Quiz Game using Tkinter - GeeksforGeeks. [online] Available at: <https://www.geeksforgeeks.org/python-mcq-quiz-game-using-tkinter/> [Accessed 2 May 2021].
+ 
+6)Stack Overflow. 2021. Stack Overflow - Where Developers Learn, Share, & Build Careers. [online] Available at: <https://stackoverflow.com> [Accessed 2 May 2021].
+ 
+Distractors explained question by question:
+1) The first question asks the number of planets in our solar system.
+The distractors are 9,7, and 11, and the right answer is 8.
+You can see how they are all written as integers and not strings, confusing the user. Before, there were 9 planets, but one was removed.Having 9 and 7 as options can make the user think if either of them can be the right answer, as they might think that another planet has been removed, or there wasn't any removed planet. So they might choose 9. I have included 11 as an option, because it is an outlier. People sometimes blindly click on the odd ones out, and the player might click on 11 because it's an outlier.
+ 
+2) The second question asks who invented the telescope. Most people would straight away, even without options think Galileo Galilei. But it's wrong Galileo didn't invent the telescope, he made it better. I have Galileo Galilei, Hans Lippershey,
+Hypatia, and Johannes Kepler as options, of which Hans Lippershey is the correct answer. The rest are all well known for their contributions to the field of astronomy, and serve
+well as distractors.
+ 
+3) The third question shows 4 photos, and asks the user which of these is farthest from the Sun. The options are Kuiper Belt, Saturn, Neptune and 90377 Sedna. Of which 90377 Sedna is the correct answer. The use of the other 3 distractors is very clear. Neptune is the farthest planet, and the player might associate the farthest planet being the farthest object. Saturn has rings, and the player might associate the rings with being big and far. And lastly, the Kuiper belt as the name suggests is a belt, and the player might think that it is long and stretches vastly, being the farthest from the sun.
+However, what the player will least suspect as an answer, is the correct one. The player might never think of something
+sounding so complex being the right answer.
+ 
+4) The fourth question is which term describes the alignment of three celestial bodies. The options are "sizzle", "syzygy", "suzerainty", "symbology". Of which the correct one is syzygy.
+The distractors are very blended in, in this question. The second and third ones sound the most legitimate, whereas the first one stands out, being the odd one. The user might be tempted to pick either of those, and not pick the right answer.
+ 
+5) The fifth question asks what the day on which the Sun’s direct rays cross the celestial equator is called.
+The options are "The Aphelion", "The Solstice", "The Ecliptic", "The Equinox", of which the correct one is
+number 4, the equinox. The distractors all sound very legitimate, and the user might pick one of the distractors.
+ 
+6) The sixth question asks what the smallest planet in our solar system by mass is. The options
+are "Jupiter", "Mars", "Mercury", "Neptune". The correct answer is number 3, Mercury. The three distractors all sound very convincing, Jupiter being the biggest planet, might make
+people think they read about it somewhere, and think that it is the smallest planet. Mars being the red planet would trick people similarly to Jupiter, and the same would be for Neptune, as it is the last planet of our Solar system.
+ 
+7) The seventh question asks what the visible part of the Sun is called. The options are "Lithosphere", "Photosphere", "Atmosphere", "Stratosphere". Of which the correct answer is
+number 2, Photosphere. The distractors all sound very convincing, and the user might pick any one of them unknowingly.
+ 
+8) The eighth question asks which Galaxy is going to merge with the Milky Way. The options are "Virgo A", "Cygnus A", "Andromeda", "Large Magellanic Cloud". Of which the correct answer is number 3, Andromeda. All the options are legitimate galaxies, and sound very convincing to be the right answer.
+ 
+9) The ninth question asks approximately, how many kilometres are in a Light-Year. The options are "9.5 Billion", "950,000", "9.5 Million", "9.5 Trillion". Of which the correct answer is number 4, 9.5 Trillion. All the options sound very similar, each one having an extra or one less zero at the end. This makes it increasingly harder to predict the right answer without explicitly knowing it. So the distractors serve their purpose well.
+ 
+10) The tenth and the last question asks with which spacecraft did Neil Armstrong and Edwin Aldrin, Jr land on the moon.
+The options are "Apollo 11", "Apollo 17", "Apollo 13", "Apollo 7". Of which number 1, Apollo 11 is the right answer.
+They all are legitimate programs, and all of them ran at one point. So they all sound very similar, and have numbers
+which makes it even harder to guess the right answer. So it will be very hard for the player to guess the right answer.
+ 
+Mockups:
+
+ 
+ 
+TESTING:
+
+
+Item Being Tested
+Expected Result
+Actual Result
+Change
+1)
+Importing requests, io, and pillow.
+Imports successfully.
+Module doesn’t exist error
+Pip install *module_name* in the command line.
+2)
+Making a Frame
+Makes the frame successfully,and gridding objects on it works successfully.
+Gridding didn’t work at all, and it worked the same way as .pack() did.
+Make empty labels, grid them first and then grid the other objects onto the labels. 
+3)
+Making the to_destroy() function, that gets the person’s details, and checks the details.txt file to check if the details already exist. If they do, it doesn’t let them play. 
+Works as mentioned.
+<-
+Only checked once, cause there were if statements that got called once. Also showed a bunch of errors in the terminal due to not having error handling.
+Added error handling, and assigned the function to the command of the submit button in details_frame
+It worked fine.
+4)
+Making the get_image function.
+The function should have gotten images from the internet, be it jpg,png or gif, and then added them to the frames. 
+Errors in the terminal, and the image didn’t show up. Eventually, the image did show up, but couldn’t be gridded, and the height and width couldn’t be changed. 
+Made the variables global, as python has garbage collection, meaning that it only remembers stuff that it feels like it needs to, so as to now fill up the ram. Then added 4 more parameters to the function, r,c,height,width. Which changed the row, column, height and width of the image.
+5)
+Making the quit command and quit button.
+Quits out of the whole quiz.
+Didn’t quit out of the whole quiz, instead quitted out of the question_frame or the details_frame only. 
+Made it quit master1 instead of one of the frames. 
+
+
+6)
+Making the exit() function.
+Should check if details_frame is destroyed, if it is, it should make a START button and when it is pressed, it should start the questions_frame.
+Didn’t start the questions_frame object. Didn’t grid the START button
+Had to check the question number, and only start if the details_frame is destroyed. Had to make the empty labels again, and grid the START button on them.
+7)
+Make the next() function
+Should check if question number is 10, if it is then it should pop up the submit button. If it isn’t, then it should go to the next question.
+Didn’t show the next question. 
+Had to add question_number += 1 to go to the next question.
+8)
+Make the back() function.
+Should go to the previous question if pressed. 
+Didn’t show the previous question
+Had to add question_number -= 1, to go to the previous question.
+9)
+Make the question() function.
+Should only show the question, after the START button is pressed. 
+Didn’t show the question.
+Had to add qno = question_number, and then pass qno to the text variables of radio buttons.
+
+ 
+REPORT:
+I tested the program multiple times, throughout the time I was coding it. There were a number of errors,
+but I had a handy feature at hand, a debugger. I used both Pycharm's and VSCode's debugger, although I prefer
+VsCode. But Pycharm's debugger works better. The debugger really helped me, as I stepped through each line until the breakpoint,and realised the error I made. I did that multiple times until I figured out a solution. I repeated this throughout while writing the program. Having and updating a testing table throughout while running the program really helped me to analyse the bugs better, and think from all scenarios to figure out possible solutions to the problems. The changes are mentioned in the testing table. There were a few possible improvements that could have been made, including adding the tick image so that it doesn’t delete the other images, and adding functionality so that if the user presses 10 multiple times, it doesn’t make the program lag. I would do things differently the next time. The changes I would make would include fixing the above bugs, and making a quiz on one single frame, with a scrollbar. This would help in making the users select the answers, and be able to change stuff without having to press back and next buttons. This will also reduce the lag significantly, as there won’t be dynamic windows. However, this time a lot of the stuff worked well, and the quiz works without any run-time errors.
+Thanks,
+Gaurav
+ 
+Hope you like the Quiz!!!
+ 
+ 
+
