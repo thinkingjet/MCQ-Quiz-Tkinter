@@ -1,0 +1,98 @@
+{
+    "questions": [
+      "Q1. How many planets are in our Solar System?",
+      "Q2. Who invented the Telescope?",
+      "Q3. Which of these objects is farthest from the Sun?",
+      "Q4. What term best describes the alignment of three celestial bodies?",
+      "Q5. The day on which the Sun’s direct rays cross the celestial equator is called:",
+      "Q6. What is the smallest planet in our solar system by mass?",
+      "Q7. What is the visible part of the Sun called?",
+      "Q8. Which Galaxy is going to merge with the Milky Way?",
+      "Q9. Approximately, how many kilometres are in a Light-Year?",
+      "Q10. With which spacecraft did Neil Armstrong and Edwin Aldrin, Jr land on the moon?"
+    ],
+    "answers": [
+      1,
+      2,
+      3,
+      2,
+      4,
+      3,
+      2,
+      3,
+      4,
+      1
+    ],
+    "options": [
+  
+      ["8",
+        "9",
+        "7",
+        "11"
+      ],
+      ["Gallileo Galleili",
+        "Hans Lippershey",
+        "Hypatia",
+        "Johannes Kepler"
+      ],
+      ["Kuiper Belt",
+        "Saturn",
+        "90377 Sedna",
+        "Neptune"
+      ],
+      ["sizzle",
+        "syzgy",
+        "suzerainty",
+        "symbology"
+      ],
+      ["The Aphelion",
+        "The Solstice",
+        "The Ecliptic",
+        "The Equinox"
+      ],
+      [
+        "Jupiter",
+        "Mars",
+        "Mercury",
+        "Neptune"
+      ],
+      ["Lithosphere",
+        "Photosphere",
+        "Atmosphere",
+        "Stratosphere"
+      ],
+      ["Virgo A",
+        "Cygnus A",
+        "Andromeda",
+        "Large Magellanic Cloud"
+      ],
+      ["9.5 Billion",
+        "950,000",
+        "9.5 Million",
+        "9.5 Trillion"
+      ],
+      ["Apollo 11",
+        "Apollo 17",
+        "Apollo 13",
+        "Apollo 7"
+      ]
+    ]
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
