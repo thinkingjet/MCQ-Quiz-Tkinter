@@ -1,0 +1,100 @@
+{
+    "question": [
+      "What is the name of this historical structure\n which is located in Piazza del Duomo, Italy?",
+      "This famous statue located in New York City is referred to as:\n",
+      "The structure below located in the Middle East was built\n thousands of years ago, and still stands today.",
+      "The highest mountain in the world, standing at 8,848 meters\n and 29,029 feet, with 145 attempts to climb it",
+      "This is longest wall in the world and has a main-line\n length of 3,460 km",
+      "This famed area is located in the mountains, at more\n than 2,400 metres/8,000 feet above sea level.",
+      "In 1632 the emperor, Shah Jahan instructed to build a\n tomb for his favorite wife, Mumtaz Mahal.",
+      "The opera house was designed by Jørn Utzon from Denmark\n and it was built between 1959 and 1973, with over 1 million roof tiles.",
+      "This famous American made car became the most popular\n car in the US in 1965.",
+      "This well known world leader was assassinated by his close friend\n, and later written about in a famous play by a highly respected writer."
+    ],
+    "answer": [
+      1,
+      4,
+      3,
+      2,
+      2,
+      3,
+      4,
+      3,
+      2,
+      3
+    ],
+
+    "imgs": [
+        "https://cdn.pixabay.com/photo/2015/11/22/16/45/pisa-1056568_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2014/02/17/10/20/statue-of-liberty-267948_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2016/02/02/18/33/sphinx-1175828_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2016/03/09/12/09/mountain-1246297_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2017/02/01/14/14/great-wall-of-china-2030311_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2018/05/02/11/35/natural-3368410_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2020/06/05/21/09/cultural-tourism-5264542_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2018/08/14/09/34/sydney-3605032_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2018/01/28/20/50/ford-mustang-3114670_960_720.jpg",
+        "https://cdn.pixabay.com/photo/2017/09/22/12/39/paris-2775427_960_720.jpg"
+    ],
+
+
+    "options": [
+  
+      ["Leaning Tower of Pi",
+        "Milan Cathedral",
+        "Ponte Vecchio",
+        "Colosseum"
+      ],
+      ["Spring Temple Buddha",
+        "Christ the Redeemer",
+        "Lion-man",
+        "Statue of Liberty"
+      ],
+      ["Pharaoh’s Tomb",
+        "Joseph’s Tomb",
+        "Egyptian Pyramid",
+        "Mecca Temple"
+      ],
+      ["Makalu",
+        "Nanga Parbat",
+        "Himalayan Mountains",
+        "Mount Everest"
+      ],
+      ["Kumbhalgarh Fort",
+        "Great Wall of China",
+        "Amer Fort Jaipur",
+        "Ancient Walls of Mesopotamia"
+      ],
+      [
+          "Machu Picchu",
+          "Nazca Lines",
+          "Choquequirao",
+          "Chichen Itza"
+      ],
+      [
+          "The Red Taj",
+          "Mizo Taj",
+          "Bibi Ka Maqbara",
+          "The Taj Mahal"
+      ],
+      [
+          "Teatro di San Carlo",
+          "Guangzhou Drama Arts Center",
+          "Sydney Opera House",
+          "Bunkamura Orchard Hall"
+      ],
+      [
+          "Ford F-Series",
+          "Ford Mustang",
+          "Chevrolet Silverado",
+          "Chevrolet Tahoe"
+      ],
+      [
+          "Marcus Junius Brutus",
+          "Marc Antony",
+          "Julius Caesar",
+          "Pompey"
+      ]
+    ]
+  }
+
